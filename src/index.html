@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Главная"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<main class="page">
+			<section class="page__main-home main-home">
+				<img src="../img/main-image.png" alt="" class="main-home__image">
+				<img src="../img/main-image-2.png" alt="" class="main-home__image-2">
+				<img src="../img/main-bg.png" alt="" class="main-home__bg">
+				<div class="main-home__container">
+					<div class="main-home__data-desc"><span>21 мая</span> 20:00 мск</div>
+					<div class="main-home__content">
+						<div class="main-home__top">
+							<div class="main-home__title">Бесплатный вебинар</div>
+							<div class="main-home__subtitles">
+								ТУРЕЦКИЙ. БЫСТРЫЙ СТАРТ. <span>Учим легко
+									и просто.</span>
+							</div>
+							<div data-da=".main-home__container, 767.98" class="main-home__author">Ведущая:
+								<span>Фатима Эргин.</span>
+							</div>
+						</div>
+						<div class="main-home__center">
+							<div class="main-home__data">Дата и время:</div>
+							<div class="main-home__data-text"><span>21 мая</span> 20:00 мск</div>
+						</div>
+						<div data-da=".block__container, 991.98, first" class="main-home__bottom">
+							<div class="main-home__block">
+								<div class="main-home__item">
+									После регистрации пришлем вам
+									подарок гайд "Топ - 34 фразы
+									на каждый день"
+								</div>
+							</div>
+							<a href="#" data-popup="#forms" class="main-home__button">Забронировать место</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__block block">
+				<div class="block__container">
+					<div class="block__body">
+						<div class="block__subtitle">Что вас ждет на вебинаре:</div>
+						<div class="block__content">
+							<div class="block__column">
+								<div class="block__item">
+									<div class="block__image">
+										<img src="../img/icons/fragment-image.svg" alt="">
+									</div>
+									<div class="block__text">
+										<span>Научитесь правильно отвечать на вопрос “Где?” по-турецки</span>
+									</div>
+								</div>
+							</div>
+							<div class="block__column">
+								<div class="block__item">
+									<div class="block__image">
+										<img src="../img/icons/fragment-image.svg" alt="">
+									</div>
+									<div class="block__text">
+										<span>Узнаете, какие фразы
+											и выражения лучше сказать
+											в определенных ситуациях
+											в Турции</span>
+									</div>
+								</div>
+							</div>
+							<div class="block__column">
+								<div class="block__item">
+									<div class="block__image">
+										<img src="../img/icons/fragment-image.svg" alt="">
+									</div>
+									<div class="block__text">
+										<span>Научитесь строить простые предложения с турецкими глаголами</span>
+									</div>
+								</div>
+							</div>
+							<div class="block__column">
+								<div class="block__item">
+									<div class="block__image">
+										<img src="../img/icons/fragment-image.svg" alt="">
+									</div>
+									<div class="block__text">
+										<span>Выучите сразу 10 новых слов, которые помогут легко общаться с
+											турками</span>
+									</div>
+								</div>
+							</div>
+							<div class="block__column">
+								<div class="block__item">
+									<div class="block__image">
+										<img src="../img/icons/fragment-image.svg" alt="">
+									</div>
+									<div class="block__text">
+										<span>Узнаете, как можно прокачать турецкий акцент</span>
+									</div>
+								</div>
+							</div>
+							<div class="block__column">
+								<div class="block__item">
+									<div class="block__image">
+										<img src="../img/icons/fragment-image.svg" alt="">
+									</div>
+									<div class="block__text">
+										<span>Получите подарки и выгодные предложения от нашей школы!</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a href="#" class="block__button button">Иду на вебинар</a>
+					</div>
+				</div>
+			</section>
+			<section class="page__speaker speaker">
+				<div class="speaker__container">
+					<div class="speaker__title">Вебинары проводит</div>
+					<div class="speaker__body">
+						<div class="speaker__content">
+							<div class="speaker__item item-speaker">
+								<div class="item-speaker__subtitle">Знакомьтесь!
+									<br>
+									Это <span>Фатима Эргин</span>
+								</div>
+								<ul>
+									<li>Живет в Турции более 20 лет, преподает 7 лет. </li>
+									<li>Работала переводчиком на важных экономических форумах от министерства Турции.
+										Переводила художественную литературу.</li>
+									<li>Выпускница Стамбульского университета - старейшего ВУЗа Турции.</li>
+									<li>Проходила курсы по дикции, озвучивала рекламные ролики на турецком и русских
+										языках.</li>
+									<li>Полиглот (знает 4 языка).</li>
+								</ul>
+							</div>
+						</div>
+						<div class="speaker__image">
+							<img src="../img/image.png" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="page__button button">
+				<div class="button__container">
+					<a href="#" class="block__button button">Иду на вебинар</a>
+				</div>
+			</div>
+		</main>
+		@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_popup.htm',{})
+	@@include('html/_js.htm',{})
+</body>
+
+</html>
